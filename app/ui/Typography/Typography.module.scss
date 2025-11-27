@@ -1,0 +1,29 @@
+.typography {
+  color: #0d2344;
+  margin: 0;
+  padding: 0;
+}
+
+.typography[data-font="primary"] {
+  font-family: var(--font-unbounded, "Unbounded", sans-serif);
+}
+
+.typography[data-font="secondary"] {
+  font-family: "Century Gothic", "CenturyGothic", "AppleGothic", sans-serif;
+}
+
+.typography[data-weight="extraBold"] {
+  font-weight: 800;
+}
+
+.typography[data-weight="medium"] {
+  font-weight: 500;
+}
+
+.typography[data-weight="regular"] {
+  font-weight: 400;
+}
+
+.typography[data-weight="light"] {
+  font-weight: 300;
+}

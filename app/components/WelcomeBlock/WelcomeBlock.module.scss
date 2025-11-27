@@ -1,0 +1,29 @@
+.container {
+  position: relative;
+  background-image: url("/WelcomeBlock/welcomeBG.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0 32px;
+  margin-bottom: 200px;
+}
+
+.light {
+transform: translateX(160%);
+}
+
+.title {
+  margin: 5px 0;
+  text-transform: uppercase;
+  white-space: pre-line;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+
+.description {
+  font-weight: 200 !important;
+  white-space: pre-line;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-bottom: 24px;
+}

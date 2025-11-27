@@ -1,5 +1,12 @@
 import "./globals.css";
 
+import { Unbounded } from "next/font/google";
+
+const unbounded = Unbounded({
+  subsets: ["latin"],
+  variable: "--font-unbounded",
+});
+
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -7,7 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
+      <body className={unbounded.variable}>
         {children}
       </body>
     </html>
