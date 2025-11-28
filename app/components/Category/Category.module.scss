@@ -1,0 +1,17 @@
+.title {
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.blocks {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 300px);
+  justify-content: center;
+  gap: 12px;
+  margin-top: 32px;
+}

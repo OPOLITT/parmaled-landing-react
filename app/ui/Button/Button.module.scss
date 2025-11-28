@@ -1,15 +1,28 @@
 .button {
   all: unset;
+  box-sizing: border-box;
 }
 
 .button {
-  padding: 16px 48px;
-  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  font-size: 16px;
-  font-weight: 600;
+  border-radius: 16px;
   
   cursor: pointer;
+}
+
+.button[data-size="small"] {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button[data-size="large"] {
+  padding: 16px 48px;
+  font-size: 16px;
+  font-weight: 600;
 }
 
 .button[data-variant="primary"] {
