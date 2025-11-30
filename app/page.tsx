@@ -20,10 +20,10 @@ export default function Home() {
         </section>
         <section id="about" style={{ minHeight: "100vh", paddingTop: "110px" }}>
         </section> */}
-        {/* <section id="about">
+        <section id="about">
           <AboutCompany />
         </section>
-        <section id="contacts">
+        {/* <section id="contacts">
           <Contacts />
         </section> */}
       </main>

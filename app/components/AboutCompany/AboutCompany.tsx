@@ -21,7 +21,7 @@ const RIGHT_COLUMN_TEXT = [
 export const AboutCompany = () => {
   return (
     <Container className={cls.container}>
-      <LogotypeHorizontal width={206} height={40} />
+      <LogotypeHorizontal className={cls.logotype} width={206} height={40} />
       <Typography className={cls.title} size={48} weight="extraBold">
         О компании
       </Typography>

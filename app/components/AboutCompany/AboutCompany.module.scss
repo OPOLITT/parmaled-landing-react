@@ -1,17 +1,36 @@
 .title {
-  margin: 6px 0 50px 0;
+  margin: 8px 0 50px 0;
+
+  @media (max-width: 600px) { 
+    font-size: 30px !important;
+  }
+}
+
+.logotype {
+  @media (max-width: 600px) { 
+    width: 137px;
+    height: 27px;
+  }
 }
 
 .description {
   padding-bottom: 24px;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
   border-bottom: 2px solid #0D2344;
+
+  @media (max-width: 600px) { 
+    font-size: 16px !important;
+  }
 }
 
 .content {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  gap: 24px;
+  gap: 48px;
+
+  @media (max-width: 600px) { 
+    grid-template-columns: 1fr;
+  }
 }
 
 .column {
@@ -22,4 +41,8 @@
 
 .paragraph {
   line-height: 1.4;
+
+  @media (max-width: 600px) { 
+    font-size: 14px !important;
+  }
 }
