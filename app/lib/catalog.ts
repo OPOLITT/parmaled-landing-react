@@ -11,14 +11,14 @@ export function getAllCategories(): CategoryData[] {
 /**
  * Получить категорию по индексу
  */
-export function getCategoryByIndex(index: number): CategoryData | undefined {
+export function getCategoryByIndex(index: number): CategoryData {
   return catalogData[index];
 }
 
 /**
  * Получить первую категорию
  */
-export function getFirstCategory(): CategoryData | undefined {
+export function getFirstCategory(): CategoryData {
   return catalogData[0];
 }
 

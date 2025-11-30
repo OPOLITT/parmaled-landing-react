@@ -4,6 +4,7 @@ import { AboutCompany } from "./components/AboutCompany/AboutCompany";
 import { Contacts } from "./components/Contacts/Contacts";
 import { Category } from "./components/Category/Category";
 import { getFirstCategory } from "./lib/catalog";
+import { Catalog } from "./components/Catalog/Catalog";
 
 export default function Home() {
   const categoryData = getFirstCategory();
@@ -15,11 +16,12 @@ export default function Home() {
         <section id="welcome">
           <WelcomeBlock />
         </section>
-        {/* {categoryData && <Category data={categoryData} />} */}
-        {/* <section id="catalog" style={{ minHeight: "100vh", paddingTop: "110px" }}>
+        <section id="catalog">
+          <Catalog />
         </section>
-        <section id="about" style={{ minHeight: "100vh", paddingTop: "110px" }}>
-        </section> */}
+        <Category
+          data={categoryData}
+        />
         <section id="about">
           <AboutCompany />
         </section>

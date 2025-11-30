@@ -19,6 +19,13 @@
 
   padding: 12px 24px 36px 24px;
   z-index: 1000;
+  transition: transform 0.3s ease;
+
+  @media (min-width: 701px) {
+    &.hidden {
+      transform: translateX(-50%) translateY(-100%);
+    }
+  }
 
   &.open {
     @media (max-width: 700px) {
@@ -70,10 +77,6 @@
     height: auto;
     min-height: 80px;
     transition: opacity 300ms ease, visibility 300ms ease, height 300ms ease, min-height 300ms ease, padding 300ms ease, margin 300ms ease;
-  }
-
-  .desktopNav {
-    display: none;
   }
 
   .mobileNav {

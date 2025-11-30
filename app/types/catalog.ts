@@ -4,6 +4,7 @@ export interface ProductBlock {
 }
 
 export interface CategoryData {
+  id: string; // ID для связи с каталогом и скролла к секции
   title: string; // Основной заголовок категории
   blocks: ProductBlock[]; // Массив блоков с продуктами
 }

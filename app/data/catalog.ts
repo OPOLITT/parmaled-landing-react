@@ -2,7 +2,8 @@ import { CategoryData } from "../types/catalog";
 
 export const catalogData: CategoryData[] = [
   {
-    title: "Светильник «Оконный проем»",
+    id: "window-opening", // ID для связи с каталогом
+    title: `Светильник\n«Оконный проем»`,
     blocks: [
       {
         article: "PL-XTD-M4800",
@@ -34,6 +35,38 @@ export const catalogData: CategoryData[] = [
       },
       {
         article: "PL-XTD-M4807",
+        image: "/products/testpr.png",
+      },
+      {
+        article: "PL-XTD-M4808",
+        image: "/products/testpr.png",
+      },
+      {
+        article: "PL-XTD-M4809",
+        image: "/products/testpr.png",
+      },
+      {
+        article: "PL-XTD-M4810",
+        image: "/products/testpr.png",
+      },
+      {
+        article: "PL-XTD-M4811",
+        image: "/products/testpr.png",
+      },
+      {
+        article: "PL-XTD-M4812",
+        image: "/products/testpr.png",
+      },
+      {
+        article: "PL-XTD-M4813",
+        image: "/products/testpr.png",
+      },
+      {
+        article: "PL-XTD-M4814",
+        image: "/products/testpr.png",
+      },
+      {
+        article: "PL-XTD-M4815",
         image: "/products/testpr.png",
       },
     ],
