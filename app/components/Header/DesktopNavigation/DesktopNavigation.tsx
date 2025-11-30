@@ -15,31 +15,37 @@ export const DesktopNavigation: React.FC<DesktopNavigationProps> = ({
 
   return (
     <div className={cls.desktopNav}>
-      {itemsBeforeLogo.map((item) => (
-        <button
-          key={item.id}
-          className={cls.navigationButton}
-          onClick={() => onNavClick(item.sectionId)}
-        >
-          {item.label}
-        </button>
-      ))}
+      <div className={cls.navLeft}>
+        {itemsBeforeLogo.map((item) => (
+          <button
+            key={item.id}
+            className={cls.navigationButton}
+            onClick={() => onNavClick(item.sectionId)}
+          >
+            {item.label}
+          </button>
+        ))}
+      </div>
 
-      <LogotypeVertical
-        width={136}
-        height={57}
-        className={cls.logotype}
-      />
+      <div className={cls.logotypeWrapper}>
+        <LogotypeVertical
+          width={136}
+          height={57}
+          className={cls.logotype}
+        />
+      </div>
 
-      {itemsAfterLogo.map((item) => (
-        <button
-          key={item.id}
-          className={cls.navigationButton}
-          onClick={() => onNavClick(item.sectionId)}
-        >
-          {item.label}
-        </button>
-      ))}
+      <div className={cls.navRight}>
+        {itemsAfterLogo.map((item) => (
+          <button
+            key={item.id}
+            className={cls.navigationButton}
+            onClick={() => onNavClick(item.sectionId)}
+          >
+            {item.label}
+          </button>
+        ))}
+      </div>
     </div>
   );
 };

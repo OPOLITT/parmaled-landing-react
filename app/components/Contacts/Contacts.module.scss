@@ -7,16 +7,59 @@
 
 .logotype {
   margin: 0 auto;
+  width: 560px;
+  height: 235px;
+  transition: width 0.3s ease, height 0.3s ease;
+
+  @media (max-width: 1200px) {
+    width: 480px;
+    height: 202px;
+  }
+
+  @media (max-width: 992px) {
+    width: 400px;
+    height: 168px;
+  }
+
+  @media (max-width: 768px) {
+    width: 320px;
+    height: 135px;
+  }
+
+  @media (max-width: 576px) {
+    width: 280px;
+    height: 118px;
+  }
+
+  @media (max-width: 480px) {
+    width: 250px;
+    height: 105px;
+  }
+
+  @media (max-width: 375px) {
+    width: 220px;
+    height: 93px;
+  }
 }
 
 .contacts {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 160px;
+  gap: 20px;
+
+  @media (max-width: 880px) {
+    grid-template-columns: 1fr;
+    gap: 40px;
+  }
 }
 
 .column {
-  display: block;
   text-align: center;
+}
+
+.contact {
+  @media (max-width: 600px) {
+    font-size: 14px !important;
+  }
 }
