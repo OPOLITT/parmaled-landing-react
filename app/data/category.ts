@@ -251,6 +251,22 @@ export const catalogData: CategoryData[] = [
         article: "PL-TGD-DB28801",
         image: "/category/spotlights/PL-TGD-DB28801.png",
       },
+      {
+        article: "PL-TSD-F0103",
+        image: "/category/spotlights/PL-TSD-F0103.png",
+      },
+      {
+        article: "PL-TSD-C0302",
+        image: "/category/spotlights/PL-TSD-C0302.png",
+      },
+      {
+        article: "PL-TSD-C0602",
+        image: "/category/spotlights/PL-TSD-C0602.png",
+      },
+      {
+        article: "PL-TSD-D0110",
+        image: "/category/spotlights/PL-TSD-D0110.png",
+      },
     ],
   },
   {
@@ -258,64 +274,8 @@ export const catalogData: CategoryData[] = [
     title: "светильник «оконный проём»",
     blocks: [
       {
-        article: "PL-XTD-M4800",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4801",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4802",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4803",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4804",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4805",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4806",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4807",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4808",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4809",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4810",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4811",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4812",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4813",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-XTD-M4814",
-        image: "/products/testpr.png",
+        article: "PL-TSD-E0602",
+        image: "/category/window-opening/PL-TSD-E0602.png",
       },
     ],
   },
@@ -324,64 +284,24 @@ export const catalogData: CategoryData[] = [
     title: "настенные светодиодные светильники",
     blocks: [
       {
-        article: "PL-WAL-001",
-        image: "/products/testpr.png",
+        article: "PL-TSD-I0205",
+        image: "/category/wall-mounted/PL-TSD-I0205.png",
       },
       {
-        article: "PL-WAL-002",
-        image: "/products/testpr.png",
+        article: "PL-TSD-G0603",
+        image: "/category/wall-mounted/PL-TSD-G0603.png",
       },
       {
-        article: "PL-WAL-003",
-        image: "/products/testpr.png",
+        article: "PL-TSD-G1203",
+        image: "/category/wall-mounted/PL-TSD-G1203.png",
       },
       {
-        article: "PL-WAL-004",
-        image: "/products/testpr.png",
+        article: "PL-TSD-G2403",
+        image: "/category/wall-mounted/PL-TSD-G2403.png",
       },
       {
-        article: "PL-WAL-005",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WAL-006",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WAL-007",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WAL-008",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WAL-009",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WAL-010",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WAL-011",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WAL-012",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WAL-013",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WAL-014",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WAL-015",
-        image: "/products/testpr.png",
+        article: "PL-TSD-G3603",
+        image: "/category/wall-mounted/PL-TSD-G3603.png",
       },
     ],
   },
@@ -390,64 +310,12 @@ export const catalogData: CategoryData[] = [
     title: "дугообразные светодиодные светильники",
     blocks: [
       {
-        article: "PL-ARC-001",
-        image: "/products/testpr.png",
+        article: "PL-TSD-H0301",
+        image: "/category/arc-shaped/PL-TSD-H0301.png",
       },
       {
-        article: "PL-ARC-002",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-003",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-004",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-005",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-006",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-007",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-008",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-009",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-010",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-011",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-012",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-013",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-014",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-ARC-015",
-        image: "/products/testpr.png",
+        article: "PL-TSD-H0601",
+        image: "/category/arc-shaped/PL-TSD-H0601.png",
       },
     ],
   },
@@ -550,64 +418,8 @@ export const catalogData: CategoryData[] = [
     title: "настенный светодиодный светильник",
     blocks: [
       {
-        article: "PL-WLM-001",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-002",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-003",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-004",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-005",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-006",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-007",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-008",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-009",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-010",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-011",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-012",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-013",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-014",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-WLM-015",
-        image: "/products/testpr.png",
+        article: "PL-DMD-J2401",
+        image: "/category/wall-luminaire/PL-DMD-J2401.png",
       },
     ],
   },
@@ -616,64 +428,24 @@ export const catalogData: CategoryData[] = [
     title: "уличные светодиодные светильники",
     blocks: [
       {
-        article: "PL-STR-001",
-        image: "/products/testpr.png",
+        article: "PL-LD-A100",
+        image: "/category/street/PL-LD-A100.png",
       },
       {
-        article: "PL-STR-002",
-        image: "/products/testpr.png",
+        article: "PL-LD-A150",
+        image: "/category/street/PL-LD-A150.png",
       },
       {
-        article: "PL-STR-003",
-        image: "/products/testpr.png",
+        article: "PL-LD-A200",
+        image: "/category/street/PL-LD-A200.png",
       },
       {
-        article: "PL-STR-004",
-        image: "/products/testpr.png",
+        article: "PL-LD-A250",
+        image: "/category/street/PL-LD-A250.png",
       },
       {
-        article: "PL-STR-005",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-STR-006",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-STR-007",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-STR-008",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-STR-009",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-STR-010",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-STR-011",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-STR-012",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-STR-013",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-STR-014",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-STR-015",
-        image: "/products/testpr.png",
+        article: "PL-LD-A300",
+        image: "/category/street/PL-LD-A300.png",
       },
     ],
   },
@@ -682,64 +454,36 @@ export const catalogData: CategoryData[] = [
     title: "туннельные светодиодные светильники",
     blocks: [
       {
-        article: "PL-TUN-001",
-        image: "/products/testpr.png",
+        article: "PL-TGD-M100",
+        image: "/category/tunnel/PL-TGD-M100.png",
       },
       {
-        article: "PL-TUN-002",
-        image: "/products/testpr.png",
+        article: "PL-TGD-M150",
+        image: "/category/tunnel/PL-TGD-M150.png",
       },
       {
-        article: "PL-TUN-003",
-        image: "/products/testpr.png",
+        article: "PL-TGD-M200",
+        image: "/category/tunnel/PL-TGD-M200.png",
       },
       {
-        article: "PL-TUN-004",
-        image: "/products/testpr.png",
+        article: "PL-TGD-M250",
+        image: "/category/tunnel/PL-TGD-M250.png",
       },
       {
-        article: "PL-TUN-005",
-        image: "/products/testpr.png",
+        article: "PL-TGD-M300",
+        image: "/category/tunnel/PL-TGD-M300.png",
       },
       {
-        article: "PL-TUN-006",
-        image: "/products/testpr.png",
+        article: "PL-TGD-NA50",
+        image: "/category/tunnel/PL-TGD-NA50.png",
       },
       {
-        article: "PL-TUN-007",
-        image: "/products/testpr.png",
+        article: "PL-TGD-NB50",
+        image: "/category/tunnel/PL-TGD-NB50.png",
       },
       {
-        article: "PL-TUN-008",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-TUN-009",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-TUN-010",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-TUN-011",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-TUN-012",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-TUN-013",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-TUN-014",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-TUN-015",
-        image: "/products/testpr.png",
+        article: "PL-TGD-NC50",
+        image: "/category/tunnel/PL-TGD-NC50.png",
       },
     ],
   },
@@ -748,64 +492,8 @@ export const catalogData: CategoryData[] = [
     title: "карнизный светодиодный светильник",
     blocks: [
       {
-        article: "PL-COR-001",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-002",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-003",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-004",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-005",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-006",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-007",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-008",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-009",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-010",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-011",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-012",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-013",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-014",
-        image: "/products/testpr.png",
-      },
-      {
-        article: "PL-COR-015",
-        image: "/products/testpr.png",
+        article: "PL-DGD-A30",
+        image: "/category/cornice/PL-DGD-A30.png",
       },
     ],
   },
