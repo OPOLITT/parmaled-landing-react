@@ -10,7 +10,7 @@ import { LogotypeHorizontal } from "../../Logotype/LogotypeHorizontal";
 interface MobileMenuProps {
   isOpen: boolean;
   onClose: () => void;
-  onNavClick: (sectionId: string) => void;
+  onNavClick: (sectionId: string, itemId?: string) => void;
 }
 
 export const MobileMenu: React.FC<MobileMenuProps> = ({
@@ -18,8 +18,8 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
   onClose,
   onNavClick,
 }) => {
-  const handleClick = (sectionId: string) => {
-    onNavClick(sectionId);
+  const handleClick = (sectionId: string, itemId?: string) => {
+    onNavClick(sectionId, itemId);
     onClose();
   };
 
@@ -61,7 +61,7 @@ export const MobileMenu: React.FC<MobileMenuProps> = ({
             <button
               key={item.id}
               className={cls.mobileMenuButton}
-              onClick={() => handleClick(item.sectionId)}
+              onClick={() => handleClick(item.sectionId, item.id)}
             >
               {item.label}
             </button>

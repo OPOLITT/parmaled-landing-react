@@ -16,7 +16,32 @@ export const Header = () => {
   const headerRef = useRef<HTMLElement>(null);
   const hideAfterNavClick = useRef(false);
 
-  const scrollToSection = (sectionId: string) => {
+  const downloadCatalog = async () => {
+    try {
+      const response = await fetch("/parmaled.pdf");
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = "parmaled.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+      window.URL.revokeObjectURL(url);
+    } catch (error) {
+      console.error("Ошибка при скачивании каталога:", error);
+      // Fallback: открываем файл в новой вкладке
+      window.open("/parmaled.pdf", "_blank");
+    }
+  };
+
+  const scrollToSection = (sectionId: string, itemId?: string) => {
+    // Если это пункт "скачать каталог", скачиваем файл
+    if (itemId === "download") {
+      downloadCatalog();
+      return;
+    }
+
     const element = document.getElementById(sectionId);
     if (element) {
       const isDesktop = window.innerWidth > 700;
@@ -43,8 +68,8 @@ export const Header = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
-  const handleNavClick = (sectionId: string) => {
-    scrollToSection(sectionId);
+  const handleNavClick = (sectionId: string, itemId?: string) => {
+    scrollToSection(sectionId, itemId);
     setIsMenuOpen(false);
   };
 

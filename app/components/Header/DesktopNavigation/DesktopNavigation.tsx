@@ -3,7 +3,7 @@ import { navigationItems } from "../navigationItems";
 import cls from "./DesktopNavigation.module.scss";
 
 interface DesktopNavigationProps {
-  onNavClick: (sectionId: string) => void;
+  onNavClick: (sectionId: string, itemId?: string) => void;
 }
 
 export const DesktopNavigation: React.FC<DesktopNavigationProps> = ({
@@ -20,7 +20,7 @@ export const DesktopNavigation: React.FC<DesktopNavigationProps> = ({
           <button
             key={item.id}
             className={cls.navigationButton}
-            onClick={() => onNavClick(item.sectionId)}
+            onClick={() => onNavClick(item.sectionId, item.id)}
           >
             {item.label}
           </button>
@@ -40,7 +40,7 @@ export const DesktopNavigation: React.FC<DesktopNavigationProps> = ({
           <button
             key={item.id}
             className={cls.navigationButton}
-            onClick={() => onNavClick(item.sectionId)}
+            onClick={() => onNavClick(item.sectionId, item.id)}
           >
             {item.label}
           </button>
