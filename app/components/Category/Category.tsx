@@ -6,7 +6,7 @@ import { Container } from "../../ui/Container/Container";
 import { Typography } from "../../ui/Typography/Typography";
 import { Button } from "../../ui/Button/Button";
 import cls from "./Category.module.scss";
-import { CategoryBlock } from "./CategoryBlock/CategoryBlock";
+import { Product } from "./Product/Product";
 import { CategoryData } from "../../types/category";
 
 export interface CategoryProps {
@@ -102,7 +102,7 @@ export const Category: React.FC<CategoryProps> = ({ data }) => {
                       : undefined
                   }
                 >
-                  <CategoryBlock article={block.article} image={block.image} />
+                  <Product article={block.article} image={block.image} />
                 </div>
               );
             }

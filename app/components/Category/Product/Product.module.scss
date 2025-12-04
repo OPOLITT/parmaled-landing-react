@@ -1,22 +1,27 @@
 .container {
   width: 100%;
-  aspect-ratio: 1 / 1;
   border-radius: 20px;
   background: #EFEEEC;
   box-shadow: 0px 4px 4px 0px #00000040;
   padding: 24px 16px 12px 16px;
   display: flex;
   flex-direction: column;
-
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+  gap: 12px;
 
   transition: box-shadow 0.15s ease;
 
   &:hover {
     box-shadow: 0px 5px 5px 0px #0000005f;
   }
+}
+
+.image {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  border-radius: 12px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .button {
@@ -33,3 +38,4 @@
     padding: 2px 0px !important;
   }
 }
+

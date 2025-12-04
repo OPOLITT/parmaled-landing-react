@@ -1,21 +1,22 @@
-import { Button } from "../../../ui/Button/Button";
 import { Typography } from "../../../ui/Typography/Typography";
-import cls from "./CategoryBlock.module.scss";
+import cls from "./Product.module.scss";
 
-export interface CategoryBlockProps {
+export interface ProductProps {
   article: string;
   image: string;
 }
 
-export const CategoryBlock: React.FC<CategoryBlockProps> = ({
+export const Product: React.FC<ProductProps> = ({
   article,
   image,
 }) => {
   return (
-    <div className={cls.container} style={{ backgroundImage: `url(${image})` }}>
+    <div className={cls.container}>
       <Typography className={cls.article} size={20} weight="medium">
         {article}
       </Typography>
+      
+      <div className={cls.image} style={{ backgroundImage: `url(${image})` }} />
 
       {/* <Button className={cls.button} size="small" variant="primary">
         Подробнее
@@ -23,3 +24,4 @@ export const CategoryBlock: React.FC<CategoryBlockProps> = ({
     </div>
   );
 };
+
