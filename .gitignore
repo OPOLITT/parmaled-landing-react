@@ -41,4 +41,4 @@ yarn-error.log*
 next-env.d.ts
 
 # large files
-public/parmaled.pdf
+# public/parmaled.pdf - теперь отслеживается через Git LFS
