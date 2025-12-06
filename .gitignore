@@ -13,9 +13,10 @@
 # testing
 /coverage
 
-# next.js
-/.next/
-/out/
+# Vite
+/dist
+/dist-ssr
+*.local
 
 # production
 /build
@@ -38,7 +39,6 @@ yarn-error.log*
 
 # typescript
 *.tsbuildinfo
-next-env.d.ts
 
 # large files
 # public/parmaled.pdf - теперь отслеживается через Git LFS

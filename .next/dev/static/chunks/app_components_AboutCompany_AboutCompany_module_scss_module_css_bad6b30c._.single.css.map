@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/app/components/AboutCompany/AboutCompany.module.scss"],"sourcesContent":[".title {\n  margin: 8px 0 50px 0;\n\n  @media (max-width: 600px) { \n    font-size: 30px !important;\n    margin: 8px 0 24px 0;\n  }\n}\n\n.logotype {\n  @media (max-width: 600px) { \n    width: 137px;\n    height: 27px;\n  }\n}\n\n.description {\n  padding-bottom: 24px;\n  margin-bottom: 16px;\n  border-bottom: 2px solid #0D2344;\n\n  @media (max-width: 600px) { \n    font-size: 16px !important;\n  }\n}\n\n.content {\n  display: grid;\n  grid-template-columns: 1fr 1fr;\n  gap: 48px;\n\n  @media (max-width: 600px) { \n    grid-template-columns: 1fr;\n  }\n}\n\n.column {\n  display: flex;\n  flex-direction: column;\n  gap: 24px;\n}\n\n.paragraph {\n  line-height: 1.4;\n\n  @media (max-width: 600px) { \n    font-size: 14px !important;\n  }\n}"],"names":[],"mappings":"AAAA;;;;AAGE;EAHF;;;;;EASA;;;;;;AAOA;;;;;;AAKE;EALF;;;;;AAUA;;;;;;AAKE;EALF;;;;;AAUA;;;;;;AAMA;;;;AAGE;EAHF"}}]
+}

@@ -1,0 +1,92 @@
+/* [project]/app/components/WelcomeBlock/WelcomeBlock.module.scss.module.css [app-client] (css) */
+.WelcomeBlock-module-scss-module__f8hRpW__wrapper {
+  background-image: url("/WelcomeBlock/bg.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+@media (max-width: 1100px) {
+  .WelcomeBlock-module-scss-module__f8hRpW__wrapper {
+    background-position: right -50px;
+  }
+}
+
+@media (max-width: 850px) {
+  .WelcomeBlock-module-scss-module__f8hRpW__wrapper {
+    background-image: url("/WelcomeBlock/bg.png");
+    background-position: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .WelcomeBlock-module-scss-module__f8hRpW__wrapper {
+    background-image: url("/WelcomeBlock/bgmobile.png");
+    background-position: 50% -50px;
+    background-size: 100%;
+  }
+}
+
+@media (max-width: 360px) {
+  .WelcomeBlock-module-scss-module__f8hRpW__wrapper {
+    background-position: 50% -15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .WelcomeBlock-module-scss-module__f8hRpW__logotype {
+    display: none;
+  }
+}
+
+.WelcomeBlock-module-scss-module__f8hRpW__container[class] {
+  position: 0;
+  margin: 0 auto;
+  padding-bottom: 130px;
+}
+
+@media (max-width: 480px) {
+  .WelcomeBlock-module-scss-module__f8hRpW__container[class] {
+    padding: 0 16px 60px;
+  }
+}
+
+.WelcomeBlock-module-scss-module__f8hRpW__content {
+  padding-top: 320px;
+}
+
+.WelcomeBlock-module-scss-module__f8hRpW__title[class] {
+  text-transform: uppercase;
+  white-space: pre-line;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 5px 0;
+}
+
+@media (max-width: 480px) {
+  .WelcomeBlock-module-scss-module__f8hRpW__title[class] {
+    font-size: 28px !important;
+  }
+}
+
+.WelcomeBlock-module-scss-module__f8hRpW__description[class] {
+  white-space: pre-line;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-bottom: 24px;
+  font-weight: 200;
+}
+
+@media (max-width: 480px) {
+  .WelcomeBlock-module-scss-module__f8hRpW__description[class] {
+    font-size: 14px !important;
+  }
+
+  .WelcomeBlock-module-scss-module__f8hRpW__button {
+    width: 100% !important;
+    font-size: 14px !important;
+  }
+}
+
+/*# sourceMappingURL=app_components_WelcomeBlock_WelcomeBlock_module_scss_module_css_bad6b30c._.single.css.map*/

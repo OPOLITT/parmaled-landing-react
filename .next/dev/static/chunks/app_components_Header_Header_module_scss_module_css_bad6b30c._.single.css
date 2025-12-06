@@ -1,0 +1,88 @@
+/* [project]/app/components/Header/Header.module.scss.module.css [app-client] (css) */
+.Header-module-scss-module__zB_sZa__header {
+  z-index: 1000;
+  background: #fff;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  align-items: center;
+  width: 80%;
+  max-width: 1330px;
+  height: 110px;
+  margin: 0 auto;
+  padding: 12px 24px 36px;
+  transition: transform .3s;
+  display: flex;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 4px #00000040;
+  position: fixed !important;
+}
+
+@media (min-width: 701px) {
+  .Header-module-scss-module__zB_sZa__header.Header-module-scss-module__zB_sZa__hidden {
+    transform: translateX(-50%)translateY(-100%);
+  }
+}
+
+@media (max-width: 700px) {
+  .Header-module-scss-module__zB_sZa__header.Header-module-scss-module__zB_sZa__open {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    transition: opacity .15s, visibility .15s, height, min-height, padding, margin;
+  }
+}
+
+.Header-module-scss-module__zB_sZa__navigation {
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  display: flex;
+}
+
+.Header-module-scss-module__zB_sZa__mobileNav {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: none;
+}
+
+@media (max-width: 976px) {
+  .Header-module-scss-module__zB_sZa__header {
+    height: 100px;
+    padding: 12px 24px;
+  }
+
+  .Header-module-scss-module__zB_sZa__navigation {
+    gap: 16px;
+  }
+}
+
+.Header-module-scss-module__zB_sZa__mobileLogotype {
+  flex-shrink: 0;
+  margin-right: 12px;
+}
+
+@media (max-width: 700px) {
+  .Header-module-scss-module__zB_sZa__header {
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    padding: 16px 24px;
+    transition: opacity .3s, visibility .3s, height .3s, min-height .3s, padding .3s, margin .3s;
+    position: relative;
+  }
+
+  .Header-module-scss-module__zB_sZa__mobileNav {
+    display: flex;
+  }
+
+  .Header-module-scss-module__zB_sZa__navigation {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/*# sourceMappingURL=app_components_Header_Header_module_scss_module_css_bad6b30c._.single.css.map*/

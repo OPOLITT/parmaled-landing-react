@@ -1,0 +1,45 @@
+/* [project]/app/globals.css [app-client] (css) */
+@font-face {
+  font-family: Gothic;
+  src: url("/font/GOTHIC.TTF");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Gothic;
+  src: url("/font/GOTHICB.TTF");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Gothic;
+  src: url("/font/GOTHICBI.TTF");
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Gothic;
+  src: url("/font/GOTHICI.TTF");
+  font-weight: 700;
+  font-style: italic;
+  font-display: swap;
+}
+
+body, html {
+  background: #efeeec;
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  font-family: var(--font-unbounded);
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=app_globals_css_bad6b30c._.single.css.map*/

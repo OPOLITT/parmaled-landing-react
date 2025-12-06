@@ -1,0 +1,103 @@
+/* [project]/app/components/Category/Category.module.scss.module.css [app-client] (css) */
+.Category-module-scss-module__Yx7C0G__title {
+  text-transform: uppercase;
+  white-space: pre-line;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 600px) {
+  .Category-module-scss-module__Yx7C0G__title {
+    font-size: 24px !important;
+  }
+}
+
+.Category-module-scss-module__Yx7C0G__subtitle {
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+@media (max-width: 600px) {
+  .Category-module-scss-module__Yx7C0G__subtitle {
+    font-size: 16px !important;
+  }
+}
+
+.Category-module-scss-module__Yx7C0G__blocks {
+  grid-template-columns: repeat(4, 1fr);
+  justify-content: center;
+  gap: 16px;
+  margin-top: 32px;
+  display: grid;
+}
+
+@media (max-width: 1200px) {
+  .Category-module-scss-module__Yx7C0G__blocks {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .Category-module-scss-module__Yx7C0G__blocks {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.Category-module-scss-module__Yx7C0G__blockWrapper {
+  opacity: 1;
+  transition: opacity .4s, transform .4s;
+  transform: translateY(0);
+}
+
+.Category-module-scss-module__Yx7C0G__newBlock {
+  opacity: 0;
+  animation: .5s forwards Category-module-scss-module__Yx7C0G__fadeInUp;
+  transform: translateY(20px);
+}
+
+.Category-module-scss-module__Yx7C0G__newBlock:nth-child(n) {
+  animation-delay: calc(var(--index, 0) * 50ms);
+}
+
+.Category-module-scss-module__Yx7C0G__closingBlock {
+  animation: .5s forwards Category-module-scss-module__Yx7C0G__fadeOutDown;
+}
+
+.Category-module-scss-module__Yx7C0G__closingBlock:nth-child(n) {
+  animation-delay: calc(var(--index, 0) * 50ms);
+}
+
+@keyframes Category-module-scss-module__Yx7C0G__fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes Category-module-scss-module__Yx7C0G__fadeOutDown {
+  from {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+.Category-module-scss-module__Yx7C0G__buttonWrapper {
+  justify-content: center;
+  margin-top: 40px;
+  display: flex;
+}
+
+.Category-module-scss-module__Yx7C0G__toggleButton {
+  min-width: 200px;
+}
+
+/*# sourceMappingURL=app_components_Category_Category_module_scss_module_css_bad6b30c._.single.css.map*/

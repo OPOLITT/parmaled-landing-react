@@ -1,0 +1,75 @@
+/* [project]/app/ui/Typography/Typography.module.scss.module.css [app-client] (css) */
+.Typography-module-scss-module__kgpwjG__typography {
+  color: #0d2344;
+  margin: 0;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-font="primary"] {
+  font-family: var(--font-unbounded, "Unbounded", sans-serif);
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-font="secondary"] {
+  font-family: Gothic, Century Gothic, CenturyGothic;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-weight="extraBold"] {
+  font-weight: 800;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-weight="medium"] {
+  font-weight: 500;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-weight="regular"] {
+  font-weight: 400;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-weight="light"] {
+  font-weight: 300;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="64"] {
+  font-size: 64px;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="48"] {
+  font-size: 48px;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="28"] {
+  font-size: 28px;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="24"] {
+  font-size: 24px;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="22"] {
+  font-size: 22px;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="20"] {
+  font-size: 20px;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="18"] {
+  font-size: 18px;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="16"] {
+  font-size: 16px;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="14"] {
+  font-size: 14px;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="12"] {
+  font-size: 12px;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-size="10"] {
+  font-size: 10px;
+}
+
+/*# sourceMappingURL=app_ui_Typography_Typography_module_scss_module_css_bad6b30c._.single.css.map*/

@@ -1,0 +1,58 @@
+/* [project]/app/components/AboutCompany/AboutCompany.module.scss.module.css [app-client] (css) */
+.AboutCompany-module-scss-module__AlJyuq__title {
+  margin: 8px 0 50px;
+}
+
+@media (max-width: 600px) {
+  .AboutCompany-module-scss-module__AlJyuq__title {
+    margin: 8px 0 24px;
+    font-size: 30px !important;
+  }
+
+  .AboutCompany-module-scss-module__AlJyuq__logotype {
+    width: 137px;
+    height: 27px;
+  }
+}
+
+.AboutCompany-module-scss-module__AlJyuq__description {
+  border-bottom: 2px solid #0d2344;
+  margin-bottom: 16px;
+  padding-bottom: 24px;
+}
+
+@media (max-width: 600px) {
+  .AboutCompany-module-scss-module__AlJyuq__description {
+    font-size: 16px !important;
+  }
+}
+
+.AboutCompany-module-scss-module__AlJyuq__content {
+  grid-template-columns: 1fr 1fr;
+  gap: 48px;
+  display: grid;
+}
+
+@media (max-width: 600px) {
+  .AboutCompany-module-scss-module__AlJyuq__content {
+    grid-template-columns: 1fr;
+  }
+}
+
+.AboutCompany-module-scss-module__AlJyuq__column {
+  flex-direction: column;
+  gap: 24px;
+  display: flex;
+}
+
+.AboutCompany-module-scss-module__AlJyuq__paragraph {
+  line-height: 1.4;
+}
+
+@media (max-width: 600px) {
+  .AboutCompany-module-scss-module__AlJyuq__paragraph {
+    font-size: 14px !important;
+  }
+}
+
+/*# sourceMappingURL=app_components_AboutCompany_AboutCompany_module_scss_module_css_bad6b30c._.single.css.map*/

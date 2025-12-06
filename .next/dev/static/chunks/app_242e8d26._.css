@@ -1,0 +1,410 @@
+/* [project]/app/components/Logotype/Logotype.module.scss.module.css [app-client] (css) */
+.Logotype-module-scss-module__aJ790a__logotype {
+  display: block;
+}
+
+/* [project]/app/components/Header/HamburgerButton/HamburgerButton.module.scss.module.css [app-client] (css) */
+.HamburgerButton-module-scss-module__HM1oEa__hamburgerButton {
+  all: unset;
+  cursor: pointer;
+  z-index: 1001;
+  flex-direction: column;
+  gap: 5px;
+  padding: 8px;
+  display: flex;
+}
+
+.HamburgerButton-module-scss-module__HM1oEa__hamburgerLine {
+  background-color: #ef8e01;
+  border-radius: 2px;
+  width: 24px;
+  height: 3px;
+  transition: all .3s;
+}
+
+.HamburgerButton-module-scss-module__HM1oEa__open .HamburgerButton-module-scss-module__HM1oEa__hamburgerLine:first-child {
+  transform: rotate(45deg)translate(6px, 6px);
+}
+
+.HamburgerButton-module-scss-module__HM1oEa__open .HamburgerButton-module-scss-module__HM1oEa__hamburgerLine:nth-child(2) {
+  opacity: 0;
+  transform: translateX(-10px);
+}
+
+.HamburgerButton-module-scss-module__HM1oEa__open .HamburgerButton-module-scss-module__HM1oEa__hamburgerLine:nth-child(3) {
+  transform: rotate(-45deg)translate(6px, -6px);
+}
+
+/* [project]/app/ui/Backdrop/Backdrop.module.scss.module.css [app-client] (css) */
+.Backdrop-module-scss-module__flh8Aq__backdrop {
+  opacity: 0;
+  visibility: hidden;
+  z-index: 99999;
+  pointer-events: none;
+  background: #00000080;
+  width: 100%;
+  height: 100vh;
+  transition: opacity .15s ease-in-out, visibility .15s ease-in-out;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Backdrop-module-scss-module__flh8Aq__backdrop.Backdrop-module-scss-module__flh8Aq__open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity .15s ease-in-out, visibility .15s ease-in-out;
+}
+
+.Backdrop-module-scss-module__flh8Aq__backdrop[data-animation="center"] {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.Backdrop-module-scss-module__flh8Aq__container {
+  background: #fff;
+  padding: 24px;
+  transition: none;
+}
+
+.Backdrop-module-scss-module__flh8Aq__container[data-animation="rightSide"] {
+  z-index: 10000;
+  opacity: 0;
+  visibility: hidden;
+  background: #fff;
+  width: 280px;
+  max-width: 80vw;
+  height: 100vh;
+  transition: transform .3s, opacity .3s, visibility .3s;
+  position: fixed;
+  inset: 0 0 0 auto;
+  overflow: auto;
+  transform: translateX(100%);
+  box-shadow: -2px 0 8px #00000040;
+}
+
+.Backdrop-module-scss-module__flh8Aq__container[data-animation="rightSide"][data-open="true"] {
+  opacity: 1;
+  visibility: visible;
+  transform: translateX(0);
+}
+
+.Backdrop-module-scss-module__flh8Aq__container[data-animation="center"] {
+  background: #fff;
+  border-radius: 4px;
+  max-width: 90vw;
+  max-height: 90vh;
+  margin: auto;
+  position: relative;
+  overflow: auto;
+  box-shadow: 0 4px 20px #00000026;
+}
+
+.Backdrop-module-scss-module__flh8Aq__header {
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 12px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.Backdrop-module-scss-module__flh8Aq__title {
+  color: #0d2344;
+  margin: 0;
+  font-weight: 500;
+}
+
+.Backdrop-module-scss-module__flh8Aq__closeButton {
+  all: unset;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  transition: transform .2s;
+  display: flex;
+}
+
+.Backdrop-module-scss-module__flh8Aq__closeButton:hover {
+  transform: scale(1.1);
+}
+
+.Backdrop-module-scss-module__flh8Aq__closeIcon {
+  color: #ef8e01;
+  -webkit-user-select: none;
+  user-select: none;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 1;
+}
+
+/* [project]/app/components/Header/MobileMenu/MobileMenu.module.scss.module.css [app-client] (css) */
+.MobileMenu-module-scss-module__XsUilq__mobileMenu {
+  flex-direction: column;
+  gap: 16px;
+  padding: 0;
+  display: flex;
+}
+
+.MobileMenu-module-scss-module__XsUilq__mobileMenuButton {
+  all: unset;
+  color: #0d2344;
+  cursor: pointer;
+  text-align: left;
+  border-bottom: 1px solid #efeeec;
+  padding: 12px 0;
+  font-size: 18px;
+  transition: color .2s;
+}
+
+.MobileMenu-module-scss-module__XsUilq__mobileMenuButton:hover {
+  color: #ef8e01;
+}
+
+.MobileMenu-module-scss-module__XsUilq__mobileMenuButton:last-child {
+  border-bottom: none;
+}
+
+/* [project]/app/components/Header/DesktopNavigation/DesktopNavigation.module.scss.module.css [app-client] (css) */
+.DesktopNavigation-module-scss-module__XWlbTG__desktopNav {
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  display: flex;
+}
+
+.DesktopNavigation-module-scss-module__XWlbTG__logotype {
+  flex-shrink: 0;
+  margin: 0 64px;
+  transform: translateY(-4px);
+}
+
+.DesktopNavigation-module-scss-module__XWlbTG__navigationButton {
+  all: unset;
+  color: #0d2344;
+  cursor: pointer;
+  font-size: 16px;
+  transition: color .2s;
+}
+
+.DesktopNavigation-module-scss-module__XWlbTG__navigationButton:hover {
+  color: #ef8e01;
+}
+
+.DesktopNavigation-module-scss-module__XWlbTG__navigationButton + .DesktopNavigation-module-scss-module__XWlbTG__navigationButton {
+  margin-left: 28px;
+}
+
+@media (max-width: 1048px) {
+  .DesktopNavigation-module-scss-module__XWlbTG__logotype {
+    margin: 0 48px;
+  }
+
+  .DesktopNavigation-module-scss-module__XWlbTG__navigationButton + .DesktopNavigation-module-scss-module__XWlbTG__navigationButton {
+    margin-left: 16px;
+  }
+}
+
+@media (max-width: 976px) {
+  .DesktopNavigation-module-scss-module__XWlbTG__logotype {
+    display: none;
+  }
+
+  .DesktopNavigation-module-scss-module__XWlbTG__navigationButton + .DesktopNavigation-module-scss-module__XWlbTG__navigationButton {
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 700px) {
+  .DesktopNavigation-module-scss-module__XWlbTG__desktopNav {
+    display: none;
+  }
+}
+
+/* [project]/app/components/Header/Header.module.scss.module.css [app-client] (css) */
+.Header-module-scss-module__zB_sZa__header {
+  z-index: 1000;
+  background: #fff;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  align-items: center;
+  width: 80%;
+  max-width: 1330px;
+  height: 110px;
+  margin: 0 auto;
+  padding: 12px 24px 36px;
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.Header-module-scss-module__zB_sZa__navigation {
+  justify-content: center;
+  align-items: end;
+  width: 100%;
+  display: flex;
+}
+
+.Header-module-scss-module__zB_sZa__mobileNav {
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  display: none;
+}
+
+@media (max-width: 976px) {
+  .Header-module-scss-module__zB_sZa__header {
+    height: 100px;
+    padding: 12px 24px;
+  }
+
+  .Header-module-scss-module__zB_sZa__navigation {
+    gap: 16px;
+  }
+}
+
+.Header-module-scss-module__zB_sZa__mobileLogotype {
+  flex-shrink: 0;
+}
+
+@media (max-width: 700px) {
+  .Header-module-scss-module__zB_sZa__header {
+    border-radius: 0;
+    width: 100%;
+    height: auto;
+    min-height: 80px;
+    padding: 16px 24px;
+    position: relative;
+  }
+
+  .Header-module-scss-module__zB_sZa__desktopNav {
+    display: none;
+  }
+
+  .Header-module-scss-module__zB_sZa__mobileNav {
+    display: flex;
+  }
+
+  .Header-module-scss-module__zB_sZa__navigation {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+/* [project]/app/components/WelcomeBlock/WelcomeBlock.module.scss.module.css [app-client] (css) */
+.WelcomeBlock-module-scss-module__f8hRpW__container {
+  background-image: url("/WelcomeBlock/bg.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.WelcomeBlock-module-scss-module__f8hRpW__content {
+  padding-top: 320px;
+}
+
+.WelcomeBlock-module-scss-module__f8hRpW__title {
+  text-transform: uppercase;
+  white-space: pre-line;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin: 5px 0;
+}
+
+.WelcomeBlock-module-scss-module__f8hRpW__description {
+  white-space: pre-line;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  margin-bottom: 24px;
+  font-weight: 200 !important;
+}
+
+/* [project]/app/ui/Typography/Typography.module.scss.module.css [app-client] (css) */
+.Typography-module-scss-module__kgpwjG__typography {
+  color: #0d2344;
+  margin: 0;
+  padding: 0;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-font="primary"] {
+  font-family: var(--font-unbounded, "Unbounded", sans-serif);
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-font="secondary"] {
+  font-family: Gothic, Century Gothic, CenturyGothic;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-weight="extraBold"] {
+  font-weight: 800;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-weight="medium"] {
+  font-weight: 500;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-weight="regular"] {
+  font-weight: 400;
+}
+
+.Typography-module-scss-module__kgpwjG__typography[data-weight="light"] {
+  font-weight: 300;
+}
+
+/* [project]/app/ui/Button/Button.module.scss.module.css [app-client] (css) */
+.Button-module-scss-module__0_54wG__button {
+  all: unset;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.Button-module-scss-module__0_54wG__button[data-size="small"] {
+  padding: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.Button-module-scss-module__0_54wG__button[data-size="large"] {
+  padding: 16px 48px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.Button-module-scss-module__0_54wG__button[data-variant="primary"] {
+  color: #efeeec;
+  background: #0d2344;
+  transition: background .2s, box-shadow .2s, color .2s, transform .2s;
+}
+
+.Button-module-scss-module__0_54wG__button[data-variant="primary"]:hover {
+  color: #0d2344;
+  background: #efeeec;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 4px #00000040;
+}
+
+.Button-module-scss-module__0_54wG__button[data-variant="outline"] {
+  color: #0d2344;
+  background: #fff;
+}
+
+/* [project]/app/ui/Container/Container.module.scss.module.css [app-client] (css) */
+.Container-module-scss-module__6Q0sOW__container {
+  max-width: 1440px;
+  margin: 0 auto 150px;
+  padding: 0 48px;
+}
+
+/*# sourceMappingURL=app_242e8d26._.css.map*/

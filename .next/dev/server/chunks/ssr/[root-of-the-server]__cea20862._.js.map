@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 14, "column": 0}, "map": {"version":3,"sources":["file:///Users/vkrynin/Desktop/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/parmaled/parmaled-landing/app/components/Header/Header.tsx"],"sourcesContent":["export default function Header() {\n  return <div>Header</div>;\n}"],"names":[],"mappings":";;;;;;AAAe,SAAS;IACtB,qBAAO,8OAAC;kBAAI;;;;;;AACd"}},
+    {"offset": {"line": 33, "column": 0}, "map": {"version":3,"sources":["file:///Users/vkrynin/Desktop/%D1%80%D0%B0%D0%B1%D0%BE%D1%82%D0%B0/parmaled/parmaled-landing/app/page.tsx"],"sourcesContent":["import Header from \"./components/Header/Header\";\n\nexport default function Home() {\n  return (\n    <div>\n      <main>\n        <Header />\n      </main>\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAA;;;AAEe,SAAS;IACtB,qBACE,8OAAC;kBACC,cAAA,8OAAC;sBACC,cAAA,8OAAC,iJAAM;;;;;;;;;;;;;;;AAIf"}}]
+}

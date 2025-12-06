@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/app/components/Header/HamburgerButton/HamburgerButton.module.scss"],"sourcesContent":[".hamburgerButton {\n  all: unset;\n  display: flex;\n  flex-direction: column;\n  gap: 5px;\n  cursor: pointer;\n  padding: 8px;\n  z-index: 1001;\n}\n\n.hamburgerLine {\n  width: 24px;\n  height: 3px;\n  background-color: #ef8e01;\n  border-radius: 2px;\n  transition: all 0.3s ease;\n  transform-origin: center;\n}\n\n.open {\n  .hamburgerLine {\n    &:nth-child(1) {\n      transform: translate(0px, 8px) rotate(45deg);\n    }\n\n    &:nth-child(2) {\n      opacity: 0;\n    }\n\n    &:nth-child(3) {\n      transform: translate(0px, -8px) rotate(-45deg);\n    }\n  }\n}\n\n"],"names":[],"mappings":"AAAA;;;;;;;;;;AAUA;;;;;;;;;AAWI;;;;AAIA;;;;AAIA"}}]
+}
