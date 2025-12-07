@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/app/components/Header/Header.module.scss"],"sourcesContent":[".header {\n  position: absolute;\n}"],"names":[],"mappings":"AAAA"}},
-    {"offset": {"line": 6, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/app/components/WelcomeBlock/WelcomeBlock.module.scss"],"sourcesContent":[".container {\n  background-image: url(\"/WelcomeBlock/welcomeBG.png\");\n}"],"names":[],"mappings":"AAAA"}}]
-}

@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///turbopack:///[project]/app/ui/Container/Container.module.scss"],"sourcesContent":[".container {\n  max-width: 1440px;\n  margin: 0 auto 150px auto;\n  padding: 0 48px;\n\n  @media (max-width: 600px) { \n    margin: 0 auto 60px auto;\n    padding: 0 16px;\n  }\n}"],"names":[],"mappings":"AAAA;;;;;;AAKE;EALF"}}]
-}
