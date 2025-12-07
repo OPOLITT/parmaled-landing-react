@@ -3,6 +3,7 @@ import { LogotypeHorizontal } from "../Logotype/LogotypeHorizontal";
 import { HamburgerButton } from "./HamburgerButton/HamburgerButton";
 import { MobileMenu } from "./MobileMenu/MobileMenu";
 import { DesktopNavigation } from "./DesktopNavigation/DesktopNavigation";
+import { downloadCatalog } from "../../lib/download";
 import cls from "./Header.module.scss";
 import clsx from "clsx";
 
@@ -13,25 +14,6 @@ export const Header = () => {
   const lastScrollY = useRef(0);
   const headerRef = useRef<HTMLElement>(null);
   const hideAfterNavClick = useRef(false);
-
-  const downloadCatalog = async () => {
-    try {
-      const response = await fetch("/parmaled.pdf");
-      const blob = await response.blob();
-      const url = window.URL.createObjectURL(blob);
-      const link = document.createElement("a");
-      link.href = url;
-      link.download = "parmaled.pdf";
-      document.body.appendChild(link);
-      link.click();
-      document.body.removeChild(link);
-      window.URL.revokeObjectURL(url);
-    } catch (error) {
-      console.error("Ошибка при скачивании каталога:", error);
-      // Fallback: открываем файл в новой вкладке
-      window.open("/parmaled.pdf", "_blank");
-    }
-  };
 
   const scrollToSection = (sectionId: string, itemId?: string) => {
     // Если это пункт "скачать каталог", скачиваем файл
