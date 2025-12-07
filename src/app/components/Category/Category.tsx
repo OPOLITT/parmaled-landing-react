@@ -67,9 +67,9 @@ export const Category: React.FC<CategoryProps> = ({ data }) => {
   return (
     <section id={data.id} ref={containerRef}>
       <Container>
-        <Typography className={cls.subtitle} size={18} weight="medium">
+        {/* <Typography className={cls.subtitle} size={18} weight="medium">
           светодиодный
-        </Typography>
+        </Typography> */}
         <Typography className={cls.title} size={48} weight="extraBold">
           {data.title}
         </Typography>
