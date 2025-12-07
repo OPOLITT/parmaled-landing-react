@@ -24,6 +24,7 @@
     "eslint": "^9",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "vite": "^6.0.5"
+    "vite": "^6.0.5",
+    "vite-imagetools": "^8.0.0"
   }
 }

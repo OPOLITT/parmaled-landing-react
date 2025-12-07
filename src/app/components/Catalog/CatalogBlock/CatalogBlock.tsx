@@ -1,6 +1,5 @@
 import { memo, useCallback } from "react";
 import { Typography } from "../../../ui/Typography/Typography";
-import { useLazyImage } from "../../../lib/hooks/useLazyImage";
 import cls from "./CatalogBlock.module.scss";
 import { Button } from "../../../ui/Button/Button";
 
@@ -17,7 +16,6 @@ export const CatalogBlock: React.FC<CatalogBlockProps> = memo(({
   image,
   onViewClick 
 }) => {
-  const { imageSrc, imgRef } = useLazyImage(image);
   const handleViewClick = useCallback(() => {
     onViewClick?.(id);
   }, [id, onViewClick]);
@@ -25,11 +23,9 @@ export const CatalogBlock: React.FC<CatalogBlockProps> = memo(({
   return (
     <div className={cls.wrapper}>
       <div
-        ref={imgRef}
         className={cls.container}
         style={{ 
-          backgroundImage: imageSrc ? `url(${imageSrc})` : undefined,
-          backgroundColor: imageSrc ? undefined : "#f0f0f0"
+          backgroundImage: `url(${image})`,
         }}
       >
         <Typography className={cls.title} size={12} weight="regular">

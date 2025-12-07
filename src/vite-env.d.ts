@@ -10,3 +10,19 @@ declare module '*.scss' {
   export default content;
 }
 
+// Декларации для vite-imagetools
+declare module '*?format=webp' {
+  const src: string;
+  export default src;
+}
+
+declare module '*?format=avif' {
+  const src: string;
+  export default src;
+}
+
+declare module '*?w=*' {
+  const src: string;
+  export default src;
+}
+
