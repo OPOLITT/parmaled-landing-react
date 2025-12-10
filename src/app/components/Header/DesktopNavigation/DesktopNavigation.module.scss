@@ -55,8 +55,23 @@
 }
 
 @media (max-width: 976px) {
+  .desktopNav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 0;
+  }
+
   .logotypeWrapper {
     display: none;
+  }
+
+  .navLeft,
+  .navRight {
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
   }
 }
 
